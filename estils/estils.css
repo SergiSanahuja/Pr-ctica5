@@ -1,0 +1,230 @@
+/* sergi sanahuja */
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #e9e9e9;
+	color: #2e2e2e;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.contenidor {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto; 
+}
+
+h1 {
+	margin: 20px 0;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #1b4a81;
+	font-weight: black;
+}
+
+.contenidor .articles {
+	margin-bottom: 20px;
+}
+
+.contenidor .articles ul {
+	list-style: none;
+}
+
+.contenidor .articles ul li {
+	padding:15px 10px;
+	border-bottom: 1px solid #c8c8c8;
+}
+
+.paginacio ul {
+	list-style: none;
+}
+
+.paginacio ul li {
+	display: inline-block;
+	margin-right: 10px; 
+}
+
+.paginacio ul .active a {
+	background: #2580b4;
+}
+
+.paginacio ul .disabled {
+	background: #c2bfbf;
+	display: inline-block;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 2px 2px;
+	cursor:not-allowed;
+	color:#fff;
+	text-decoration: none;
+}
+
+.paginacio ul li a {
+	display: inline-block;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 10px 20px;
+	background: #424242;;
+	color:#fff;
+	text-decoration: none;
+}
+
+.paginacio ul li a:hover {
+	text-decoration: none;
+	background: #399228;
+}
+
+/***********************Button login**************/
+#top-nav-bar .tnb-right-section .tnb-signup-btn {
+    position: relative;
+    width: 93px;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+    border-radius: 25px;
+    margin-right: -39px;
+    font-size: 16px;
+    line-height: 1.5;
+    z-index: 5;
+}
+#top-nav-bar .tnb-right-section .tnb-login-btn {
+    position: relative;
+    width: 93px;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+    background-color: #04AA6D;
+    color: #ffffff;
+    border-radius: 25px;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    z-index: 4;
+}	
+#top-nav-bar .tnb-right-section .w3-alt-btn, #top-nav-bar .tnb-right-section .w3-btn, #top-nav-bar .tnb-right-section .w3-button {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+#top-nav-bar .tnb-right-section > a {
+    margin-bottom: 56px;
+}
+
+.w3-bar .w3-button {
+    white-space: normal;
+}
+
+.w3-bar .w3-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.w3-btn, .w3-btn:link, .w3-btn:visited {
+    color: #FFFFFF;
+    background-color: #4CAF50;
+}
+.ws-green {
+    background-color: #04AA6D!important;
+    color: white!important;
+}
+  
+.w3-right {
+    float: right!important;
+}
+
+.w3-btn, .w3-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+/***********************Button INSERT DELETE MODIFY**************/
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 30px;
+    border-radius: 4px;
+    display: inline-flex;;    
+    justify-content: flex-end;
+   
+}
+
+button{
+    background-color: #1f2020;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10%;
+    border-radius: 4px;
+    
+}
+
+
+button:hover{
+    background-color: #04AA6D;
+}
+
+
+/***********************Canviar Contrasenya*************/
+.pass_show{position: relative} 
+
+.container{
+    margin-top:20%;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.pass_show .ptxt { 
+
+position: absolute; 
+
+top: 50%; 
+
+right: 10px; 
+
+z-index: 1; 
+
+color: #f36c01; 
+
+margin-top: -10px; 
+
+cursor: pointer; 
+
+transition: .3s ease all; 
+
+} 
+
+.pass_show .ptxt:hover{color: #333333;} 
